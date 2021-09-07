@@ -1,0 +1,28 @@
+uuid: d0805706-e76e-4018-b364-902d3a446b3a
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - jugaad
+  theme:
+    - bartik
+id: jugaadblock
+theme: bartik
+region: sidebar_second
+weight: 0
+provider: null
+plugin: jugaad_block
+settings:
+  id: jugaad_block
+  label: 'Jugaad block'
+  provider: jugaad
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      products: products
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

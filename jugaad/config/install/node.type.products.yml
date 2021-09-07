@@ -1,0 +1,17 @@
+uuid: c9626940-b38c-443c-a1d4-4a8e91df9bc7
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Products
+type: products
+description: 'custom products creation'
+help: ''
+new_revision: true
+preview_mode: 0
+display_submitted: false

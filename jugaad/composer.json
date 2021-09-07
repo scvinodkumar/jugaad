@@ -1,0 +1,8 @@
+{   
+  "name": "custom/jugaad",
+  "description": "Custom module for creating products and showing QR code for purchasing the product.",
+  "type": "drupal-custom-module",
+  "require": {
+    "codeitnowin/barcode": "^3.0"
+  }
+}

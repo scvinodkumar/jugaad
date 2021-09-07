@@ -1,0 +1,14 @@
+uuid: 4fcd3eb9-211e-4f7c-9d57-e9888be141da
+name: 'Drupal Profile'
+mail: scvinodkumar.php@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /product-list
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

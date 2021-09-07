@@ -1,0 +1,49 @@
+uuid: 59d063c2-765e-47a1-8f6d-f2c3eb038437
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.products.body
+    - field.field.node.products.field_app_purchase_link
+    - field.field.node.products.field_product_image
+    - node.type.products
+    - responsive_image.styles.narrow
+  module:
+    - jugaad
+    - responsive_image
+    - text
+    - user
+id: node.products.default
+targetEntityType: node
+bundle: products
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_app_purchase_link:
+    type: qrcode_link_field_formatter
+    weight: 3
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_product_image:
+    weight: 1
+    label: hidden
+    settings:
+      responsive_image_style: narrow
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }
